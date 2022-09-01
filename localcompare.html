@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<button onclick="myfunction()">Try it</button>
+
+	<button onclick="abc()">Try it</button>
+
+	<button onclick="xyz()">Try it</button>
+
+	<script>
+		
+		function myfunction() 
+		{
+			var str1="ab";
+
+			var str2="ab";//-1 0 1
+		
+			var res=str1.localeCompare(str2);
+
+			document.write(res);
+		}
+
+
+		function abc() 
+		{
+			var str1="ab12";
+
+			var str2="ab";//-1 0 1
+		
+			var res=str1.localeCompare(str2);
+
+			document.write(res);
+		}
+
+		function xyz() 
+		{
+			var str1="ab12";
+
+			var str2="ab45";//-1 0 1
+		
+			var res=str1.localeCompare(str2);
+
+			document.write(res);
+		}
+	</script>
+
+</body>
+</html>
